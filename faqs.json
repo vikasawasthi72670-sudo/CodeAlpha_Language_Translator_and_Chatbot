@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "greetings",
+        "what's up",
+        "howdy",
+        "welcome",
+        "how are you",
+        "sup"
+      ],
+      "responses": [
+        "Hello! Welcome to CodeAlpha. I'm here to help answer your questions about our AI internship program. What would you like to know?",
+        "Hi there! I'm the CodeAlpha FAQ Assistant, ready to provide information about internship hours, compensation, projects, and mentors. How can I help?",
+        "Greetings! Feel free to ask me anything about the CodeAlpha internship program, including application process, timeline, and expectations.",
+        "Welcome to CodeAlpha support! I'm here to answer your questions about the program. What's on your mind?"
+      ]
+    },
+    {
+      "tag": "internship_hours",
+      "patterns": [
+        "what are the internship hours",
+        "how many hours per week",
+        "work schedule",
+        "what's the schedule",
+        "hours of work",
+        "when do I work",
+        "time commitment",
+        "full-time or part-time",
+        "are there flexible hours",
+        "internship duration",
+        "how long is the program",
+        "work timing"
+      ],
+      "responses": [
+        "The CodeAlpha internship is a full-time, 12-week program requiring 40 hours per week. Standard core hours are 9 AM to 5 PM, Monday through Friday, with a one-hour lunch break.",
+        "Most interns work full-time from Monday to Friday, 9 AM to 5 PM, for 12 consecutive weeks. The time commitment is 40 hours per week. We encourage work-life balance and may accommodate flexible schedules upon request.",
+        "Our internship structure involves a 40-hour work week over 12 weeks. While the standard schedule is 9 AM to 5 PM, we're open to discussing flexible arrangements based on individual circumstances and time zones.",
+        "The program runs for 12 weeks with a typical 40-hour work week. Core business hours are 9 AM to 5 PM, but we understand that life happens—reach out to discuss flexible arrangements if needed."
+      ]
+    },
+    {
+      "tag": "stipend_info",
+      "patterns": [
+        "what is the stipend",
+        "how much do I get paid",
+        "compensation",
+        "salary",
+        "payment",
+        "will I be paid",
+        "monthly stipend",
+        "earning",
+        "financial support",
+        "money during internship",
+        "how much money",
+        "remuneration"
+      ],
+      "responses": [
+        "CodeAlpha provides a competitive monthly stipend to all interns. The exact amount depends on your background, location, and role, typically ranging from $2,000 to $3,500 per month.",
+        "Yes, all CodeAlpha interns receive a paid stipend! We believe in valuing your time and contribution. The monthly amount varies based on factors like experience level, geographic location, and specific project assignment. Contact our HR department for personalized information.",
+        "Compensation is provided monthly via direct deposit to all participants. The stipend is mathematically scaled based on your background, location, and the complexity of your assigned project. Typical ranges are $2,000 to $3,500 monthly.",
+        "We offer competitive financial support to all interns. Most participants receive between $2,000 and $3,500 per month. For your personalized stipend information, please reach out to our HR team with your location details."
+      ]
+    },
+    {
+      "tag": "project_submission",
+      "patterns": [
+        "how do I submit my project",
+        "project submission process",
+        "where do I upload my work",
+        "deadline for projects",
+        "how to turn in assignment",
+        "project timeline",
+        "when are projects due",
+        "submission format",
+        "what format should project be",
+        "how to deliver project",
+        "upload project code",
+        "project checkpoint"
+      ],
+      "responses": [
+        "All projects are submitted through our GitHub repository. Ensure your code is well-documented with a comprehensive README, follows our coding standards, and includes clear commit messages. Deadlines are typically at 5 PM on Fridays unless otherwise specified.",
+        "Submit projects via GitHub by pushing to your assigned repository's main branch. Include proper documentation, inline comments, and a detailed README explaining your implementation. Weekly submissions are standard, with code reviews occurring the following Monday morning.",
+        "Project submission follows this process: commit your work to the project repository on GitHub, ensure all files are properly formatted and documented, and push before the weekly deadline. Our team conducts reviews within 48 hours.",
+        "You'll submit via Git to our central repository. Code must be clean, well-commented, and include a detailed README file. Follow the submission guidelines on our intern portal—typically Friday EOD is the deadline for weekly deliverables."
+      ]
+    },
+    {
+      "tag": "mentors",
+      "patterns": [
+        "who are my mentors",
+        "how do I contact my mentor",
+        "mentor information",
+        "who is assigned to me",
+        "mentor availability",
+        "can I request a different mentor",
+        "mentor office hours",
+        "how often do I meet with mentor",
+        "mentorship structure",
+        "1-on-1 mentor meetings",
+        "mentor schedule",
+        "talk to my mentor"
+      ],
+      "responses": [
+        "Each intern receives a dedicated mentor from their specific technical domain. You'll have scheduled weekly one-on-one meetings and can reach out anytime via email or Slack for questions. Your mentor's contact information and calendar are available in the intern portal.",
+        "Your mentor is assigned based on your project focus and technical background. Standard practice includes one 1-hour meeting per week plus ad-hoc mentorship through Slack and email. If you need to switch mentors, discuss it with your current mentor and program coordinator.",
+        "Mentorship at CodeAlpha is structured with weekly one-on-one sessions lasting approximately one hour. Your assigned mentor's calendar is shared with you for scheduling. They maintain office hours and are responsive to Slack messages for urgent questions.",
+        "Each intern has a dedicated mentor with expertise in your project area. Weekly check-ins are standard, typically lasting 60 minutes. Mentors also maintain open-door policies for additional support. Your mentor's details are listed on your personalized intern dashboard."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "goodbye",
+        "bye",
+        "see you later",
+        "thanks",
+        "thank you",
+        "that's all",
+        "no more questions",
+        "exit",
+        "quit",
+        "farewell",
+        "thanks for the help",
+        "catch you later"
+      ],
+      "responses": [
+        "Thank you for using CodeAlpha support! Best of luck with your internship journey. Our team is always here if you have more questions.",
+        "Goodbye! We're excited to have you on the CodeAlpha team. Keep up the excellent work and don't hesitate to reach out anytime!",
+        "See you later! Remember, the CodeAlpha community is here to support your success. Have a productive day!",
+        "Thank you for chatting with me! Remember to engage with your mentor and teammates. Looking forward to seeing your contributions to CodeAlpha!"
+      ]
+    }
+  ]
+}
